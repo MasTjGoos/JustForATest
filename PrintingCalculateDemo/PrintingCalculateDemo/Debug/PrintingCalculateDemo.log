@@ -1,0 +1,18 @@
+﻿生成启动时间为 2017/8/9 21:30:50。
+     1>项目“E:\Working\PrintingCalculateDemo\PrintingCalculateDemo\PrintingCalculateDemo.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         D:\VS2013 install\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\PrintingCalculateDemo.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt PrintingCalculateDemoDlg.cpp
+         PrintingCalculateDemoDlg.cpp
+       Link:
+         D:\VS2013 install\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Bin\PrintingCalculateDemo.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\VS2013 install\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"..\Bin\PrintingCalculateDemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Bin\PrintingCalculateDemo.lib" /MACHINE:X86 Debug\PrintingCalculateDemo.res
+         Debug\PrintingCalculateDemo.obj
+         Debug\PrintingCalculateDemoDlg.obj
+         Debug\PrintWorkOrder.obj
+         Debug\stdafx.obj
+         PrintingCalculateDemo.vcxproj -> E:\Working\PrintingCalculateDemo\PrintingCalculateDemo\..\Bin\PrintingCalculateDemo.exe
+     1>已完成生成项目“E:\Working\PrintingCalculateDemo\PrintingCalculateDemo\PrintingCalculateDemo.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.56
