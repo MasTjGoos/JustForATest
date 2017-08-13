@@ -15,6 +15,8 @@ public:
 	CString m_strGoverAgency;
 	CString m_strContact;
 	CString m_strPhoneNum;
+	CString m_strFilename;
+	CString m_strOperater;
 
 	/************************************************************************/
 	/*输入数值属性                                                          */
@@ -38,13 +40,28 @@ public:
 	//Marks
 	bool m_bMarkNote;
 
+	//阶段计价数据
+	//排版
+	double m_nTypesetPrice;
+	//印刷
+	double m_nPrintPrice;
+	//装订
+	double m_nBindPrice;
+	//纸费
+	double m_nPaperPrice;
+	//总计
+	double m_nTotalPrice;
+
 public:
 	/*Set***/
 	//设置工单显示的信息
 	void SetWorkOrderShowInfo(long lSerialNum,
 							  CString strGoverAgency,
 	                          CString strContact,
-	                          CString strPhoneNum);
+	                          CString strPhoneNum,
+							  CString strFileName,
+							  CString strOperater
+							  );
 
 	void SetPrintingNum(int nCopyNum, int nPageNum, int nReaHeadNum);
 
@@ -52,7 +69,7 @@ public:
 
 	void WhetherSetMarkNum(bool bMarkNum);
 
-	void WhetherSetUrgentNum(double UrgentNum);
+	void SetUrgentNum(double UrgentNum);
 
 	void WhetherSetMarkNote(bool bMarkNote);
 
@@ -62,7 +79,7 @@ public:
 
 	bool GetMarkNum();
 
-	bool GetUrgentNum();
+	double GetUrgentNum();
 
 	bool GetMarkNote();
 

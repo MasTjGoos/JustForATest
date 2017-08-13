@@ -1,0 +1,28 @@
+﻿生成启动时间为 2017/8/13 20:46:34。
+     1>项目“F:\mygit\PrintingCalculateDemo\PrintingCalculateDemo\PrintingCalculateDemo.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         D:\VS2013 install\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\印刷计价软件.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>D:\VS2013 install\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 D:\VS2013 install\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+         D:\VS2013 install\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\印刷计价软件.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt PrintingCalculateDemo.cpp PrintingCalculateDemoDlg.cpp PrintWorkOrder.cpp
+         PrintingCalculateDemo.cpp
+         PrintingCalculateDemoDlg.cpp
+         PrintWorkOrder.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _AFXDLL /l"0x0804" /Ix64\Release\ /nologo /fo"x64\Release\PrintingCalculateDemo.res" PrintingCalculateDemo.rc 
+       Link:
+         D:\VS2013 install\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\Bin\印刷计价软件.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\VS2013 install\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"..\Bin\印刷计价软件.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Bin\印刷计价软件.lib" /MACHINE:X64 x64\Release\PrintingCalculateDemo.res
+         x64\Release\PrintingCalculateDemo.obj
+         x64\Release\PrintingCalculateDemoDlg.obj
+         x64\Release\PrintWorkOrder.obj
+         x64\Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         PrintingCalculateDemo.vcxproj -> F:\mygit\PrintingCalculateDemo\PrintingCalculateDemo\..\Bin\印刷计价软件.exe
+     1>已完成生成项目“F:\mygit\PrintingCalculateDemo\PrintingCalculateDemo\PrintingCalculateDemo.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.99
