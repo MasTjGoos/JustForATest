@@ -257,7 +257,7 @@ void CPrintingCalculateDemoDlg::OnBnClickedBncalculate()
 		return;
 	}
 
-	if (m_EditContactName == _T("") && m_EditPhoneNum == _T("") && m_EditUnitName == _T(""))
+	if (m_EditContactName == _T("") || m_EditPhoneNum == _T("") || m_EditUnitName == _T(""))
 	{
 		AfxMessageBox(_T("联系人信息不全！"));
 		return;
@@ -275,7 +275,7 @@ void CPrintingCalculateDemoDlg::OnBnClickedBncalculate()
 		return;
 	}
 
-	if (m_EditCopyNum == 0 && m_EditPageNum == 0)
+	if (m_EditCopyNum == 0 || m_EditPageNum == 0)
 	{
 		AfxMessageBox(_T("印制份数和页数不能为零！"));
 		return;

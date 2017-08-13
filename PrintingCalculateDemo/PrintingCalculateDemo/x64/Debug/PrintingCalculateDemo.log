@@ -1,9 +1,14 @@
-﻿生成启动时间为 2017/8/13 20:30:14。
+﻿生成启动时间为 2017/8/13 21:07:03。
      1>项目“F:\mygit\PrintingCalculateDemo\PrintingCalculateDemo\PrintingCalculateDemo.vcxproj”在节点 2 上(Build 个目标)。
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
      1>ClCompile:
-         D:\VS2013 install\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\PrintingCalculateDemo.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt PrintingCalculateDemoDlg.cpp
+         D:\VS2013 install\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\PrintingCalculateDemo.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt PrintingCalculateDemo.cpp PrintingCalculateDemoDlg.cpp
          PrintingCalculateDemoDlg.cpp
+         正在生成代码...
+         正在跳过...(未检测到相关更改)
+         PrintingCalculateDemo.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _AFXDLL /l"0x0804" /Ix64\Debug\ /nologo /fo"x64\Debug\PrintingCalculateDemo.res" PrintingCalculateDemo.rc 
        Link:
          D:\VS2013 install\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\Bin\PrintingCalculateDemo.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\VS2013 install\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"..\Bin\PrintingCalculateDemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Bin\PrintingCalculateDemo.lib" /MACHINE:X64 x64\Debug\PrintingCalculateDemo.res
          x64\Debug\PrintingCalculateDemo.obj
@@ -15,4 +20,4 @@
 
 生成成功。
 
-已用时间 00:00:00.42
+已用时间 00:00:00.67
