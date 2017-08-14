@@ -596,4 +596,6 @@ void CPrintingCalculateDemoDlg::CalculateTotalPrice()
 		m_PrintWO.m_nTotalPrice = m_PrintWO.m_nTotalPrice * 1;
 	}
 
+	m_PrintWO.m_nTotalPrice = int(m_PrintWO.m_nTotalPrice + 0.5);
+
 }
