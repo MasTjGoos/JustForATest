@@ -292,12 +292,15 @@ void CPrintingCalculateDemoDlg::OnBnClickedBncalculate()
 	switch (m_CombUrgentNum.GetCurSel())
 	{
 	case 0:
-		m_PrintWO.SetUrgentNum(1.3);
+		m_PrintWO.SetUrgentNum(1.0);
 		break;
 	case 1:
-		m_PrintWO.SetUrgentNum(1.5);
+		m_PrintWO.SetUrgentNum(1.3);
 		break;
 	case 2:
+		m_PrintWO.SetUrgentNum(1.5);
+		break;
+	case 3:
 		m_PrintWO.SetUrgentNum(2.0);
 		break;
 	}
@@ -349,7 +352,7 @@ void CPrintingCalculateDemoDlg::OnBnClickedBncalculate()
 	/************************************************************************/
 	/*列表*/
 	/************************************************************************/
-	int count = 0;
+	int count = m_RecordList.GetItemCount();
 	m_RecordList.InsertItem(count, _T(""));
 	//序号
 	str = _T("");
@@ -416,7 +419,7 @@ void CPrintingCalculateDemoDlg::OnBnClickedBncalculate()
 		m_RecordList.SetItemText(count, 9, _T("否"));
 	}
 
-	UpdateData(false);
+	UpdateData(FALSE);
 }
 
 
@@ -527,11 +530,11 @@ void CPrintingCalculateDemoDlg::CalculatePrintPrice()
 void CPrintingCalculateDemoDlg::CalculateBindPrice()
 {
 	
-	//装订打号计算
+	//装订打号
 	if (m_PrintWO.m_bMarkNum == true)
 	{
-		m_PrintWO.m_nBindPrice = m_nBookBind + m_nMarkNum;
-	}
+		m_PrintWO.m_nBindPrice = m_nMarkNum;
+	}//只装订
 	else if (m_PrintWO.m_bMarkNum == false)
 	{
 		m_PrintWO.m_nBindPrice = m_nBookBind;
@@ -569,7 +572,7 @@ void CPrintingCalculateDemoDlg::CalculateTotalPrice()
 {
 	//封皮计算
 	int TempPriceCover = 0;
-	if (m_PrintWO.m_bCover = true)
+	if (m_PrintWO.m_bCover == true)
 	{
 		TempPriceCover = m_PrintWO.m_nCopyNum * 2;
 	}
